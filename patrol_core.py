@@ -38,7 +38,7 @@ Patrol( 'VirusTotalKnownBad',
                         'analytics/stateless/common/notification.OS_DRIVERS_REP/virustotalknownbad/1.0',
                         'analytics/stateless/common/notification.OS_AUTORUNS_REP/virustotalknownbad/1.0' ] ),
         actorKwArgs = {
-            'parameters' : { 'min_av' : 3 },
+            'parameters' : { 'min_av' : 5 },
             'secretIdent' : 'analysis/01e9a19d-78e1-4c37-9a6e-37cb592e3897',
             'trustedIdents' : [ 'analysis/01e9a19d-78e1-4c37-9a6e-37cb592e3897' ],
             'n_concurrent' : 50,

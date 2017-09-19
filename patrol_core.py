@@ -205,7 +205,7 @@ Patrol( 'WinScriptedPayload',
 # exploited.
 #######################################
 Patrol( 'WinDocumentExploit',
-        initialInstances = 1,
+        initialInstances = 2,
         maxInstances = None,
         relaunchOnFailure = True,
         onFailureCall = None,
